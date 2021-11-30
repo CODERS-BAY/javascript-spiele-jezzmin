@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-image: url(../images/numbers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.363);
+    box-shadow: 1px 1px 10px grey;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    padding: 10px 10px;
+    transition: all 300ms;
+    width: 20vw;
+}
+
+button:hover {
+    background-color: rgb(255, 253, 253);
+}
+
+.grid div {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+    padding: 30px 10px;
+}
+.grid {
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.596);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    width: 30vw;
+}
+
+.screen, #popUp {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.26);
+    box-shadow: 1px 1px 10px grey;
+    display: none;
+    flex-direction: column;
+    height: 70vh;
+    margin: auto;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+#popUp {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
+    margin-top: 90px;
+    display: flex;
+    position: absolute;
+}
+
+a {
+    border: 1px solid;
+    border-radius: 50%;
+    color: black;
+    font-size: 2em;
+    margin-right: 30px;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 90vh;
+    width: 96vw;
+}
+
+.active {
+    display: flex;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed the Alien</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <a href="../index.html">🠔</a>
+            <h1>Feed the Alien</h1>
+        </div>
+        <div class="table">
+            <div>
+                <img src="images/alien.jpg" alt="alien">
+            </div>
+
+            <div id="input">
+                <h2>Hello my name is Fred</h2>
+                <p>Shoot the donut to me, so i'm not hungry anymore!</p>
+                <form>
+                    <label for="planets">Choose your planet</label>
+                    <select name="planets" onchange="changeFallingSpeed()">
+                        <option value="9.81" selected>Earth</option>
+                        <option value="1.62">Moon</option>
+                        <option value="3.69">Mars</option>
+                        <option value="24.79">Jupiter</option>
+                    </select>
+                    <label for="speed">Speed in m/s</label>
+                    <input type="number" name="speed" min="1">
+                    <label for="angle">Angle between 1 and 90</label>
+                    <input type="number" name="angle" min="1" max="90">
+                    <button type="button" onclick="calculate()">Feed</button>
+                </form>
+                <div id="output">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
