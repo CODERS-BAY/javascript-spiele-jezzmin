@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-image: url(../images/weltall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+#header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    border: 1px solid;
+    border-radius: 50%;
+    color: black;
+    font-size: 2em;
+    margin-right: 30px;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+button {
+    font-size: 0.7em;
+    font-weight: 100;
+    font-variant: small-caps;
+    margin-top: 10px;
+    padding: 2px 0;
+    width: 10vw;
+}
+
+button:hover {
+    box-shadow: 1px 1px 5px rgb(153, 255, 0);
+    background-color: rgb(153, 255, 0);
+}
+.changePlanet {
+    width: 42vw;
+}
+
+div img {
+    box-shadow: 5px 5px 15px 5px #313131;
+    max-width: 45vw;
+    max-height: 70vh;
+}
+
+form {
+    background-color: #313131c4;
+    box-shadow: 5px 5px 15px 5px #312f2f;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 20px 0;
+    margin-top: 20px;
+    max-width: 30vw;
+    text-align: center;
+    text-shadow: 4px 1px 4px rgb(0, 0, 0);
+}
+
+input, select {
+    margin: 10px 0;
+    width: 25vw;
+}
+
+#input {
+    width: 30vw;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.479);
+    height: 90vh;
+    width: 96vw;
+}
+
+label {
+    display: block;
+}
+
+p {
+    font-size: 1.7em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#output {
+    align-items: center;
+    background-color: #313131c4;
+    box-shadow: 5px 5px 15px 5px #312f2f;
+    display: flex;
+    height: 12vh;
+    margin-top: 15px;
+    justify-content: center;
+    text-shadow: 4px 1px 4px rgb(0, 0, 0);
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+}
